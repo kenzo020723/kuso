@@ -3,10 +3,12 @@ def main():
     while True:
         user_input = input("答えを入力してください: ")
         if user_input == correct_answer:
-            print("正解です！")
+            print("正解！")
             break
         else:
-            print("どうぞ。こちらがURLです"+"https://kenzo020723.github.io/kuso2/")
+            print("どうぞ。こちらがURLです" + "https://kenzo020723.github.io/kuso2/")
+
+    input("Enter を押して閉じる") 
 
 if __name__ == "__main__":
     main()
