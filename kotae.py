@@ -6,7 +6,7 @@ def main():
             print("正解です！")
             break
         else:
-            print("答えが違います。もう一度入力してください。")
+            print("どうぞ。こちらがURLです"+"https://kenzo020723.github.io/kuso2/")
 
 if __name__ == "__main__":
     main()
