@@ -4,9 +4,10 @@ def main():
         user_input = input("答えを入力してください: ")
         if user_input == correct_answer:
             print("正解！")
+            print("どうぞ。こちらがURLです" + "https://kenzo020723.github.io/kuso2/")
             break
         else:
-            print("どうぞ。こちらがURLです" + "https://kenzo020723.github.io/kuso2/")
+            print("間違ってるよ")
 
     input("Enter を押して閉じる") 
 
